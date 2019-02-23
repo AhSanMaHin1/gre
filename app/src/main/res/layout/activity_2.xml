@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#faffdc"
+    tools:context=".Activity_2">
+
+    <ImageView
+        android:src="@drawable/second"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Daily Lessons"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:background="#ffddb3"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Browse categories"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#ffddb3"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Start Quiz"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#ffddb3"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Quiz Marks"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#ffddb3"
+        android:gravity="center"
+        />
+</LinearLayout>
